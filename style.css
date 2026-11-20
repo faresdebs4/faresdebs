@@ -225,3 +225,6 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
   .mnav a[aria-current]{color:var(--accent)}
 }
 .bar .mnav .wrap{align-items:stretch;justify-content:flex-start}
+
+/* name sits directly above the links */
+.hero h1 + .contact{margin-top:clamp(28px,3vw,40px)}
